@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+#textTable{    /*최신글 테이블 설정  */
+
+
+margin-bottom:0px;
+}
+
+#textTitle{  /*최신글 테이블의 제목 */
+	font-weight:bold;
+	font-size:20pt;
+	
+}
+
+
+#imageTitle{/*이미지 테이블의 타이틀  */
+	
+	font-weight:bold;
+	font-size:20pt;
+	
+	
+}
+
+#imageTable{ /*이미지 테이블  */
+	
+
+
+margin-bottom:0px;
+vertical-align:center;
+
+}
+
+
+.imageAreaB{/*최신 이미지 5개 div구역의 대한 서식  */
+	float:left;
+	background-color:white;
+	border:1px solid black;
+	width:80px;
+	height:80px;
+	
+	
+	
+}
+
+
+#textA{ /*최신 글 더보기의 태그 */
+width:30px;
+height:30px;
+margin-left:650px;
+color:black;
+font-size:10pt;
+margin-top:-20px;
+
+
+}
+
+#imageA{/*최신 이미지 더보기의 태그  */
+width:30px;
+height:10x;
+margin-left:650px;
+color:black;
+font-size:10pt;
+
+
+}
+
+
+th{ /*테이블 제목   */
+	font-weight:bold;
+	background-color:gray;
+	text-align:center;
+	
+}
+
+.table td a{ /*테이블의 a태그   */
+	text-decoration:none;
+	color:black;
+} 
+
+#textTable th:nth-child(1){/*table 첫번째 열 넓이 조절*/
+   width:100px;
+}
+
+#textTable th:nth-child(4) { /*table 네 번째 열 넓이 조절*/
+	  width:150px;
+	
+}
+
+#textTable tr td:nth-child(1),tr td:nth-child(4){/* 테이블 1,4열 중앙정렬*/
+text-align:center;
+   
+}
+
+.table tr:last-child{
+	border-bottom:1px solid;
+}

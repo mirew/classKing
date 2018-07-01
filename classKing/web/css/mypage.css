@@ -1,0 +1,278 @@
+@charset "UTF-8";
+#left_box {
+   overflow: hidden;
+   width: 730px;
+   border:1px solid #DCDFE4;
+}
+.qna_true{
+	background:#17a2b8;
+	padding:3px;
+	font-size:12px;
+	color:#fff;
+}
+.qna_false{
+	background:#dc3545;
+	padding:3px;
+	font-size:12px;
+	color:#fff;
+}
+#area_box { /* main_box 대신 작성하여 이 영역부터 추가시작 main_box와 
+ 동일하나 margin-top 30px을 0px로 주었음*/
+   width: 100%;
+   float: left;
+   margin-top: 0px;
+   padding: 20px;
+   background: white;
+}
+.title {
+    font-size: 20px;
+    color: #3b64af;
+    margin-bottom: 20px;
+    float: left;
+}
+
+/*테이블 공통*/
+
+.table {
+  font-size:14px;
+}
+.tab-pane > .table tr:first-child{/*모든 테이블의 첫번 째 행의 컬러 회색 지정 및 텍스트 center 정렬  */
+	 background:#f5f5f5;
+   text-align:center;
+   border-top:0px;
+}
+.table th{
+  border-top:0px;
+}
+.table tr:last-child{	
+	border-bottom:1px solid #ddd;
+}
+
+/* 마이클래스 테이블*/
+#classtable tr td:first-child{
+  width:80px;
+  text-align: center;
+}
+
+#classtable tr td:nth-child(3){ 
+  width:120px;
+  text-align: center;
+}
+
+#classtable tr td:nth-child(4){ 
+  width:100px;
+  text-align: center;
+}
+
+/*내 정보 수정*/
+
+.image-group{
+  text-align: center;
+}
+
+#profile{ /*image 태그의 ID  */   
+   height: 130px;
+   width: 100px;
+   margin:10px 0px;   
+}
+
+#find{ /*file의 id로 넓이 지정  */
+  width:260px;
+  display: block; 
+}
+
+/* 마이포스트 테이블 */
+#board_table tr td:first-child{
+  width:80px;
+  text-align: center;
+}
+#board_table tr td:nth-child(2){
+  width:200px;
+}
+#board_table tr td:nth-child(3){
+  width:300px;
+}
+#board_table tr td:last-child{
+  width:100px;
+  text-align: center;
+}
+
+
+/* 마이코멘트 테이블*/
+
+#comment_table tr td:first-child{
+  width:80px;
+  text-align: center;
+}
+#comment_table tr td:nth-child(2){
+  width:200px;
+}
+#comment_table tr td:nth-child(3){
+  width:300px;
+}
+#comment_table tr td:last-child{
+  width:100px;
+  text-align: center;
+}
+
+/* 큐엔에이 테이블 */
+/* j */
+#qnatable tr td:nth-child(1){ /* my Q&Ad의 id를 qnatable로 지정하고, 1,4번째 th 넓이 조절*/
+  width:80px;
+}
+
+#qnatable td:nth-child(2){ /* my Q&Ad의 id를 qnatable로 지정하고, 두 번째 th 넓이 조절*/
+  width:350px;
+  text-align:left;
+}
+
+#qnatable td:nth-child(3){ /* my Q&Ad의 id를 qnatable로 지정하고, 세 번째 th 넓이 조절*/
+  width:100px;
+}
+
+#qnatable tr td{ /* qnatable tab의 모든 td의 텍스트를  center로 정렬  */
+	text-align:center;
+}
+
+
+
+
+#qnatable td a{
+	width:350px;
+	 display:inline-block;
+	   overflow: hidden; 
+   white-space:nowrap;
+   text-overflow: ellipsis;
+   
+}
+
+/* 신고내역 테이블 */
+
+
+#reportboard th:nth-child(1){ /* my report tab의 board tab을 reportboard로 지정하고, 첫 번째 th 넓이 조절*/
+  width:80px;
+}
+
+#reportboard th:nth-child(2){ /*  두 번째 th 넓이 조절*/
+  width:130px;
+  text-align:center;
+  
+}
+
+#reportboard th:nth-child(3){ /* , 세 번째 th 넓이 조절*/
+  width:170px;
+  
+}
+#reportboard td:nth-child(1){
+	width:80px;
+	text-align:center;
+}
+
+#reportboard td:nth-child(2){/*reportboard 넓이 조절 및 말줄임  */
+	width:237px;
+	height:100%;
+	display:inline-block;
+	overflow: hidden; 
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    border-top: 1px solid #dee2e6;   
+}
+
+#reportboard td:nth-child(3){/*  넓이 조절 및 센터 텍스트 센터 정렬*/
+	width:250px;
+	text-align:center;
+}
+
+#reportboard td:nth-child(4){/*  넓이 조절 및 센터 텍스트 센터 정렬*/
+	width:120px;
+	text-align:center;
+}
+
+
+
+
+
+
+#reportcomment th:nth-child(1){ /* my report tab의 comment report를 reportcomment로 지정하고, 1th 넓이 조절*/
+  width:80px;
+}
+
+#reportcomment th:nth-child(2){ /*  reportcomment로 지정하고, 두 번째 th 넓이 조절*/
+  width:130px;
+  text-align:center;
+  
+}
+
+#reportcomment th:nth-child(3){ /*  세 번째 th 넓이 조절*/
+  width:170px;
+  
+}
+#reportcomment td:nth-child(1){ /*  1 번째 td 넓이 조절*/
+	width:80px;
+	text-align:center;
+}
+
+#reportcomment td:nth-child(2){/*  두 번째 td 넓이 조절 및 말줄임*/
+	width:237px;
+	height:100%;
+	display:inline-block;
+	overflow: hidden; 
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    border-top: 1px solid #dee2e6;   
+}
+
+#reportcomment td:nth-child(3){/*  넓이 조절 및 센터 텍스트 센터 정렬*/
+	width:250px;
+	text-align:center;
+}
+
+#reportcomment td:nth-child(4){ /*  넓이 조절 및 센터 텍스트 센터 정렬*/
+	width:120px;
+	text-align:center;
+}
+
+
+/* j */
+
+
+
+
+
+
+
+
+
+
+
+.table td a{ /*각 탭 a태그의 설정으로 myclass는 클래스명 ,myapply의 나의 댓글은 내용,그 외에는 제목에 a태그를 걸었음   */
+	text-decoration:none;
+	color:black;
+} 
+
+
+
+
+
+/*my info tab의 css */
+#mainform{      
+background:#fff;   
+padding: 15px 20px 15px;
+  
+}
+
+
+
+
+/* 하단 페이지 이동 중앙 정렬하기  */
+.pageList{
+	text-align:center;
+}
+.pagination{
+  width:auto;
+}
+
+
+
+	
+	

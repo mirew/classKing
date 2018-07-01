@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* header 시작 */
+header{
+	display:table-row;	
+	height:80px;	
+}
+#top{
+	width:1000px;
+	margin:0 auto;
+	height:80px;	
+
+}
+#top img {
+	margin-top:10px;	
+}
+
+.top_right{
+	float:right;
+	width:224px;
+	height:80px;
+	line-height:80px;
+}
+.ad_box{
+	width:730px;
+	height:208px;
+	background:#3b64af;
+	float:left;
+}
+.box_search{	
+    padding: 6px 8px 6px 14px;
+    border-radius: 30px;
+    border: 1px solid #c5cdd7;
+    height:34px;    
+    display: inline;  
+    position:relative;
+    overflow: hidden;
+}
+.tf_search{
+    width: 200px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666;
+    outline: 0;
+}
+.btn_search{
+	height:20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;  
+    border: 0 none;
+    background-color: transparent;   
+    cursor:pointer;      
+}
+.ico_search{
+	display: inline-block;	
+    overflow: hidden;
+    width: 25px;
+    height: 20px;	
+    background: url(../images/search.png) no-repeat 0 0;
+    vertical-align:top;   
+}

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+html,body{
+	height:100%;	
+}
+body{
+	display: table;
+	width:100%;
+}
+
+
+section{
+	background:#f3f3f3;
+	display:table-row;
+	overflow:hidden;
+}
+#wrap{
+	width:1000px;
+	margin:0 auto;
+	height:100%;
+	overflow:hidden;
+	padding:20px;	
+}
+.join_form{
+	width:500px;
+	background:#f3f3f3;
+	margin:0 auto;
+	
+	height:620px;
+
+	margin:auto;
+}
+/* 여기서부터 추가적으로 들어가는 CSS 입니다. */
+.pwdAll{
+	background:#fff;
+	padding:100px 40px;
+
+
+}
+
+#optionQ{
+	margin-bottom:5px;
+}
+
+
+
+#mainform{
+ 	height: 100%;
+	background: #fff;
+	}
+	
+#clentInfoBanner{
+	
+}
+
+/* 비밀번호 수정 칸 끝!!! */

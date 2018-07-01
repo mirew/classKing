@@ -1,0 +1,63 @@
+@charset "UTF-8";@charset "UTF-8";
+
+/* classlist */
+
+#srchResult {
+	padding:0;
+	margin-top:20px;
+	font-size:14px;
+	border:0;
+	width:100%;
+}
+.listCount{
+	float:right;
+	font-size:14px;
+	margin-bottom:10px;
+}
+.title{
+	font-size: 20px;
+    color: #3b64af;
+    	
+}
+#left_box{
+	background:white;
+	padding:20px;
+}
+#srchResult th{
+	background:#f5f5f5;
+	text-align:center;
+}
+#srchResult td:first-child,#srchResult th:first-child{
+	width:90px;
+	text-align:center;
+}
+#srchResult td:nth-child(2),#srchResult th:nth-child(2){
+	width:170px;
+}
+#srchResult td:nth-child(2) a{
+	width:160px;
+	height:100%;
+	display:inline-block;
+	overflow: hidden; 
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	
+}
+#srchResult td:nth-child(3),#srchResult th:nth-child(3){
+	width:255px;
+   display:inline-block;
+   overflow: hidden; 
+   white-space:nowrap;
+   text-overflow: ellipsis;
+    border-top: 1px solid #dee2e6;
+}
+#srchResult td:nth-child(4),#srchResult th:nth-child(4){
+	width:70px;
+	text-align:center;
+}
+#srchResult td:nth-child(5){
+	width:100px;
+}
+#srchResult tr:last-child{
+	border-bottom:1px solid #dee2e6;
+}

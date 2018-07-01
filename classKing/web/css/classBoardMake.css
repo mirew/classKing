@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* menuBar */
+
+#container {
+	padding:10px 20px;
+	float: left;
+	width: 100%;
+	background: white;
+}
+
+#contents {
+	height: 300px;
+}
+
+.pull-left{float:left!important}
+
+.pull-right{float:right!important}
+
+.title{
+   font-size:20px;
+   color:#3b64af;
+   margin-bottom:20px;
+   float:left;
+}

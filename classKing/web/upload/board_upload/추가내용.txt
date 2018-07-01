@@ -1,0 +1,8 @@
+1. classBoardDetail.jsp만들어야함(댓글다는부분까지)
+
+2. noticeMake.jsp , qnaMake.jsp 고쳐야함
+
+3. 신고하기버튼 추가
+
+4. popup창 두개 버튼 만들기
+(CalendarPopup , reportPopup 추가)

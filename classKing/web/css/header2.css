@@ -1,0 +1,16 @@
+@charset "UTF-8";
+header{
+	border-bottom:solid 1px #ccc;
+	height:80px;	
+	display:table-row;	
+	
+}
+#top{
+	height:80px;	
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+}
+#top img {
+	margin-top:10px;	
+}

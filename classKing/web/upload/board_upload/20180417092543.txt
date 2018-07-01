@@ -1,0 +1,52 @@
+--1
+SELECT department_name as "학과 명",category as "계열"
+FROM tb_department;
+
+--2
+SELECT department_name || '의 정원은 ' || capacity || '명 입니다.' as "학과별 정원"
+FROM tb_department;
+
+--3
+SELECT s.STUDENT_NAME
+FROM tb_department d,tb_student s
+WHERE d.DEPARTMENT_NO = s.DEPARTMENT_NO
+AND absence_yn = 'Y'
+AND substr(student_ssn,8,1) = 2 
+AND d.DEPARTMENT_NAME = '국어국문학과';
+
+--4
+SELECT student_name
+FROM tb_student
+WHERE STUDENT_NO in ('A513079','A513090','A513091','A513110','A513119')
+ORDER BY student_name desc;
+
+--5
+SELECT department_name,category
+FROM tb_department
+WHERE capacity between 20 and 30;
+
+--6
+SELECT professor_name
+FROM tb_professor
+WHERE department_no is null;
+
+--7
+SELECT student_name
+FROM tb_student
+WHERE department_no is null;
+
+--8
+SELECT class_no
+FROM tb_class
+WHERE PREATTENDING_CLASS_NO is not null;
+
+--9
+SELECT distinct category
+FROM tb_department;
+
+--10
+SELECT student_no,student_name,student_ssn
+FROM tb_student
+WHERE student_address like '%전주%'
+AND entrance_date like '02%'
+AND absence_yn is not null;

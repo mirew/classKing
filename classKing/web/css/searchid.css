@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+header {
+	border-bottom: solid 1px #ccc;
+}
+
+#top {
+	height: 80px;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#top>img {
+	margin-top: 10px;
+}
+
+section {
+	background: #f3f3f3;
+	min-height: 100%;
+}
+
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+
+
+.join_form {
+	/* width: 340px; */
+	width:500px;
+	height: 500px;
+	background: #fff;
+	margin: 0 auto;
+	padding:0 80px;
+}
+#cancelBt{ /*아이디 찾기를 취소하는 버튼  */
+	margin-left:5px;
+}
+
+
+
+
+footer{
+	width:100%;
+	height:80px;
+	background:#4d4d4d;
+}
+
+.footer {
+	width: 1000px;
+	margin: 0 auto;
+}
